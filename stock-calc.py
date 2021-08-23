@@ -51,7 +51,7 @@ def compute():
     Label(w,text=f_ave_price).grid(column=4,row=4, pady=10)
     
 
-tk.Button(w,text="Submit",command=compute,width=20).grid(column=0,row=5,columnspan=2)
+tk.Button(w,text="Submit",command=compute,width=20).grid(column=1,row=5,columnspan=3)
 
 
 w.mainloop()
